@@ -8,16 +8,16 @@ const beian = '闽ICP备2020017848号-3'
 const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
-  title: '愧怍',
-  url: 'https://kuizuo.cn',
+  title: '鸿安泰达',
+  url: 'https://www.hatd.eu.org/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'HATD',
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      '致力于公共安全领域，生产及销售公、检、法、司、武警、反恐、部队及相关部门用于安全检查、排爆、反恐、缉毒、治安、刑侦、通讯、救援、户外等业务所需装备器材。',
   },
   themeConfig: {
     // announcementBar: {
@@ -28,7 +28,7 @@ const config: Config = {
     metadata: [
       {
         name: 'author',
-        content: '愧怍',
+        content: '鸿安泰达',
       },
       {
         name: 'keywords',
