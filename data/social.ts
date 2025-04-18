@@ -48,12 +48,14 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     icon: 'ri:twitter-x-line',
     color: '#000',
   },
+  
   wx: {
     href: social.wx,
     title: '微信',
     icon: 'ri:wechat-2-line',
     color: '#07c160',
   },
+  
   zhihu: {
     href: social.zhihu,
     title: '知乎',
