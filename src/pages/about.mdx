@@ -1,123 +1,14 @@
----
-id: about
-title: 自我介绍
-description: 愧怍的自我介绍
-hide_table_of_contents: true
----
-
-import { Icon } from '@iconify/react'
-import Comment from '@site/src/components/Comment'
-import social from '@site/data/social'
+#公司简介
 
 
-# 你好👋，我是愧怍。
-
-- <p className="inline-flex gap-1">👨‍💻 全网同名愧怍(Kuizuo)，头像[酷乐](https://baike.baidu.com/item/%E9%85%B7%E4%B9%90/18058703) <img src="/img/logo.webp" width="26" heigth="26" className="rounded-full" /></p>
-
-- 🧑 一个刚本科毕业的大学生🐂🐴，现居福州。
-
-- 🐛 曾写过两年的易语言+爬虫，在此期间接触了[自动化和逆向工程](/blog/2020-year-end-summary/)，现在主攻 JS/TS 全栈开发，立志成为一名全栈工程师。
-
-- 🤯 酷爱折腾，有极强的⾃我学习能⼒与问题解决能⼒，也有很重的代码洁癖。
-
-- 🎮 自从游戏账户(QQ)被封，让我成功戒掉了游戏瘾，摆脱了网瘾少年的身份。
-
-- 💡 我通常会将我的学习过程总结为项目或博客文章的形式，并乐意与他人分享。当其他人学习该技术时，可以参照我的项目或文章，我认为这非常有意义。
-
-### 名字由来
-
-**愧怍**，有愧疚/惭愧之意😔。也是本人使用此名所想表达的意思。
-
-我曾因某些错误的做法而感到自责苦恼，希望这个名字不断激励自我、反省过往，不再辜负我自己所经历的那么多事情。
-
-### 我的编程之旅(2 年逆向 + 3 年 Web)
-
-我与计算机结识较晚，高考结束我才拥有第一台笔记本电脑。我的第一门编程语言是[易语言](/blog/easy-language)，我学习到了外挂、逆向破解、注册机(批量)、网络协议(偏加密分析和爬虫向)、自动化脚本等技术。后来编写过一个对大学生友好的[软件](https://kuizuo.cn/blog/chaoxing-helper)被厦门某工作室看到，于是选择休学一同合作创业。复学重返校园，期间发生了些变故，导致我的技术栈转换，[从逆向工程转为 Web 全栈开发](https://kuizuo.cn/blog/2022-year-end-summary)。
-
-对易语言失去了新鲜感的我，需要一门更为强大的技术来支撑我编写体验友好的应用供客户使用，在逆向学习中积累了一定的 JS 知识，这也是我为什么会选择前端的原因。依靠跨平台解决方案，Web 网站、桌面端/移动端应用、小程序等应用都不在话下。
-
-或许是因为学习易语言的因素，我走的全是野路子，我并未系统性的学习过 CS 知识。我对编程知识的理解来源于自我实践、不断折腾的过程当中。
-
-### 兴趣爱好
-
-- **手指极限** 入坑长达 8 年(现已退坑)，如转笔、魔方、花切等有关手指旋转的都能够杂耍一番。
-
-- **电音迷** 歌单只有电音，也只听电音。戴上耳机，沉浸在无限律动之中。有生之年定要制作首电子音乐。
-
-- **编程开发** 将想法付诸实践, 享受创造的乐趣。
-
-> 生命不息,折腾不止。
-
-### 我的设备
-
-- MacBook Pro M2 14 (买完 3 个月后, 苹果出 M3 了...)
-
-- iPhone 16 
-
-- Xiaomi MIX Fold 2 (折叠屏真的很拉，别买)
-
-- Google Pixel 4XL
-
-- Xiaomi Watch S2 / Apple Watch SE
-
-- 米家显示器挂灯 (买过最实用的设备)
-
-- 台式机 (AMD 5900X + RX 6750 GRE + 64G + 2TB)
-
-- ⌨️ Nuphy Air75 V2
-
-- 🖱 罗技 MX Master 3
-
-### 我会什么
-
-- 易语言程序 (能写但不想写，因为开发体验很差，我会考虑用其他技术平替)
-
-- Window/Andriod 自动化脚本、RPA
-
-- 爬虫 / 协议复现 (我更偏向于直接抓包，而不是自动化脚本，更愿意用 ts 而非 python)
-
-- 代码反混淆 / 逆向分析 (网页 js 乱杀，安卓止步 so 层，ios 打扰了)
-
-- Chrome 扩展程序 / Vscode 插件 (写个高级点的 demo 应该没问题)
-
-- Electron (曾经写过但很久没写了)
-
-- React Native (能够开发移动端偏内容项目)
-
-- 小程序 (能写但不想写，因为开发体验很差，特指 uni-app)
-
-- Web 全栈开发 (next.js 全栈开发与 nest.js 后端开发)
-
-- AI 应用开发 (基于 [AI SDK](https://sdk.vercel.ai/) + [langchian.js](https://js.langchain.com) )
-
-### 联系方式
-
-<p style={{ display: 'flex', 'align-items': 'center', gap: '0.5rem' }}>
-  <Icon icon="ri:github-line" width="20" heigth="20" />
-  <a href={social.github.href} target="_blank">kuizuo</a>
-</p>
-
-<p style={{ display: 'flex', 'align-items': 'center', gap: '0.5rem' }}>
-  <Icon icon="ri:twitter-x-line" width="20" heigth="20" />
-  <a href={social.x.href} target="_blank">kuizuo</a>
-</p>
-
-<p style={{ display: 'flex', 'align-items': 'center', gap: '0.5rem' }}>
-  <Icon icon="ri:wechat-2-line" width="20" heigth="20" />
-  <a href={social.wx.href} target="_blank">kuizuo12</a>
-</p>
-
-<p style={{ display: 'flex', 'align-items': 'center', gap: '0.5rem' }}>
-  <Icon icon="ri:mail-open-line" width="20" heigth="20" />
-  <a href={social.email.href} target="_blank">hi@kuizuo.cn</a>
-</p>
+成都鸿安泰达科技发展有限公司成立于 2008年7月,公司始终遵循做人做事“诚信守诺、进取开拓”的公司文化和“真诚、平等、科学、进取”的司训。依靠良好的信誉，过硬的产品，优良的技术，完善的服务，迅速发展壮大。
 
 
+公司代理的产品越来越多，自主研制的产品技术含量越来越高，企业竞争力越来越强，是集研发、生产、销售于一体的综合性企业。
+公司长期致力于公共安全领域，生产及销售公、检、法、司、武警、反恐、部队及相关部门用于安全检查、排爆、反恐、缉毒、治安、刑侦、通讯、救援、户外等业务所需装备器材。在立足于国产器材销售的同时，结合国情，引进国外先进技术及装备，提供给国内广大用户。公司成立十余年来，以品种齐全、质量上乘、服务周到、质优价廉，赢得了广大客户的认可，我们将过硬的设备优质的服务提供给战斗在一线的干警、官兵，为保护国家的财产、维护社会的安定、保障人民的安全提供强有力的支撑。
 
----
 
-感谢你能看到这里，希望我的分享对你有帮助，如果你有什么困扰，也可咨询我，在我时间有限的情况下，我会竭力回复。
+鸿安泰达产品紧跟国际先进的装备理念，并结合用户需求，在装备开发、研制、生产领域独树一帜。公司生产经营产品涵盖特警器材、安检器材、排爆器材、单警装备、密拍密录设备、安全防护器材、通讯设备、消防救援设备、刑侦器材、特种车辆及交通工具。
 
-> **既然都看到这了，不妨留下你的评论。**
 
-<Comment />
+公司建立规范的管理制度，已通过了 GB/T 19001-2016/ISO9001:2015 质量管理体系认证GB/T24001-2016/1SO14001:2015 环境管理体系认证，GB/T 45001-2020/IS045001:2018职业健康安全管理体系认证，AAA级信用等级证书，AAA级重合同守信用企业，五星级售后服务认证等，2018年我司已成功入围公安部警用装备采购中心。
