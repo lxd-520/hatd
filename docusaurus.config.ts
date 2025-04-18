@@ -57,9 +57,9 @@ const config: Config = {
           label: '产品中心',
           position: 'right',
           items: [
-            { label: '警用装备', to: 'blog/archive' },
-            { label: '战术装备', to: 'docs/docusaurus-guides' },
-            { label: '户外装备', to: 'docs/docusaurus-guides' },
+            { label: '警用装备', to: 'product/police' },
+            { label: '战术装备', to: 'product/tactics' },
+            { label: '户外装备', to: 'product/outdoor' },
           ],
         },
         { label: '产品', position: 'right', to: 'product' },
