@@ -7,8 +7,6 @@ import type { GiscusConfig } from './src/components/Comment'
 //const beian = '闽ICP备2020017848号-3'
 //const beian1 = '闽公网安备35021102000847号'
 
-//const beian = '淘宝店铺'
-//const beian1 = 'https://shop354488326.taobao.com/'
 
 
 
@@ -149,7 +147,6 @@ const config: Config = {
           title: '社交媒体',
           items: [
             { label: '关于我们', to: '/about' },
-            { label: 'GitHub', url: 'https://github.com/lxd-520/hatd' },
             { label: 'Twitter', href: social.x.href },
             { label: '掘金', href: social.juejin.href },
             { label: 'Discord', href: social.discord.href },
