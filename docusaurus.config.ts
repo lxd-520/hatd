@@ -4,12 +4,8 @@ import { themes } from 'prism-react-renderer'
 import social from './data/social'
 import type { GiscusConfig } from './src/components/Comment'
 
-//const beian = '闽ICP备2020017848号-3'
-//const beian1 = '闽公网安备35021102000847号'
-
-
-
-
+const beian = '闽ICP备2020017848号-3'
+const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
 //恒量配置
@@ -147,6 +143,7 @@ const config: Config = {
           title: '社交媒体',
           items: [
             { label: '关于我们', to: '/about' },
+            { label: 'GitHub', href: social.github.href },
             { label: 'Twitter', href: social.x.href },
             { label: '掘金', href: social.juejin.href },
             { label: 'Discord', href: social.discord.href },
