@@ -52,18 +52,20 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: '博客', position: 'right', to: 'blog' },
-        { label: '项目', position: 'right', to: 'project' },
-        { label: '友链', position: 'right', to: 'friends' },
-        { label: '关于', position: 'right', to: 'about' },
+        { label: '首页', position: 'right', to: 'home' },
         {
-          label: '更多',
+          label: '产品中心',
           position: 'right',
           items: [
-            { label: '归档', to: 'blog/archive' },
-            { label: '主题魔改', to: 'docs/docusaurus-guides' },
+            { label: '警用装备', to: 'blog/archive' },
+            { label: '战术装备', to: 'docs/docusaurus-guides' },
+            { label: '户外装备', to: 'docs/docusaurus-guides' },
           ],
         },
+        { label: '产品', position: 'right', to: 'product' },
+        { label: '友链', position: 'right', to: 'friends' },
+        { label: '联系我们', position: 'right', to: 'about' },
+
         // {
         //   type: 'localeDropdown',
         //   position: 'right',
