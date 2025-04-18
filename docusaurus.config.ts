@@ -143,7 +143,7 @@ const config: Config = {
           title: '社交媒体',
           items: [
             { label: '关于我们', to: '/about' },
-            { label: 'GitHub', href: social.github.href },
+            { label: 'GitHub', url: 'https://github.com/lxd-520/hatd' },
             { label: 'Twitter', href: social.x.href },
             { label: '掘金', href: social.juejin.href },
             { label: 'Discord', href: social.discord.href },
