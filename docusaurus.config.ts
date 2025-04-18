@@ -7,8 +7,8 @@ import type { GiscusConfig } from './src/components/Comment'
 //const beian = '闽ICP备2020017848号-3'
 //const beian1 = '闽公网安备35021102000847号'
 
-const beian = '淘宝店铺'
-const beian1 = 'https://shop354488326.taobao.com/'
+//const beian = '淘宝店铺'
+//const beian1 = 'https://shop354488326.taobao.com/'
 
 
 
