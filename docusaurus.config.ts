@@ -89,7 +89,7 @@ const config: Config = {
 //滚动时隐藏
       items: [
 //项目
-        { label: '博客', position: 'right', to: 'blog' },
+        { label: '首页', position: 'right', to: 'blog' },
 //标签：首页，位置：右  
         {
           label: '产品中心',
