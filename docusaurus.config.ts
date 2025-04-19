@@ -96,7 +96,7 @@ const config: Config = {
           position: 'right',
           items: [
             { label: '警用装备', to: 'blog/archive' },
-            { label: '战术装备', to: 'blog/archive' },
+            { label: '战术装备', to: 'blog/product' },
             { label: '户外装备', to: 'blog/archive' },
           ],
         },
