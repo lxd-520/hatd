@@ -89,18 +89,18 @@ const config: Config = {
 //滚动时隐藏
       items: [
 //项目
-        { label: '首页', position: 'right', to: 'home' },
+        { label: '博客', position: 'right', to: 'blog' },
 //标签：首页，位置：右  
         {
           label: '产品中心',
           position: 'right',
           items: [
-            { label: '警用装备', to: 'product/police' },
-            { label: '战术装备', to: 'product/tactics' },
-            { label: '户外装备', to: 'product/outdoor' },
+            { label: '警用装备', to: 'blog/archive' },
+            { label: '战术装备', to: 'blog/archive' },
+            { label: '户外装备', to: 'blog/archive' },
           ],
         },
-        { label: '产品', position: 'right', to: 'product' },
+        { label: '项目', position: 'right', to: 'project' },
         { label: '友链', position: 'right', to: 'friends' },
         { label: '联系我们', position: 'right', to: 'about' },
 
