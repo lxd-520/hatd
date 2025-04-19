@@ -95,9 +95,9 @@ const config: Config = {
           label: '产品中心',
           position: 'right',
           items: [
-            { label: '警用装备', to: 'product/police/archive' },
-            { label: '战术装备', to: 'product/tactics/archive' },
-            { label: '户外装备', to: 'product/outdoor/archive' },
+            { label: '警用装备', to: 'product/archive' },
+            { label: '战术装备', to: 'tactics/archive' },
+            { label: '户外装备', to: 'outdoor/archive' },
           ],
         },
         { label: '项目', position: 'right', to: 'project' },
